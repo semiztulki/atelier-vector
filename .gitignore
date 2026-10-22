@@ -1,0 +1,7 @@
+node_modules/
+.openai/
+__qa/
+*.tar.gz
+*.ai
+*.atelier
+*.pdf
