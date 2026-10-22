@@ -1,7 +1,7 @@
-import {loadFontFiles,loadRememberedFonts} from './font-manager.js';
-import {selectionUnits,linkedMembers,expandSelection,groupElements,ungroupElements,remapCloneGroups} from './selection.js';
-import {PT_MM,clamp,round,union,alignDelta,distribute,snapBox,parsePath,pathString,splitSegment} from './geometry.js';
-import {NS,svgElement as S,cleanSVG,readSVG,readPDF,download,loadDefaultFont,registerFont,fonts,restoreFonts,getFontsForProject,addFontStyles,textToOutlines,exportPDF,qrSVG} from './io.js';
+import {loadFontFiles,loadRememberedFonts} from './font-manager.js?v=0.2.1';
+import {selectionUnits,linkedMembers,expandSelection,groupElements,ungroupElements,remapCloneGroups} from './selection.js?v=0.2.1';
+import {PT_MM,clamp,round,union,alignDelta,distribute,snapBox,parsePath,pathString,splitSegment} from './geometry.js?v=0.2.1';
+import {NS,svgElement as S,cleanSVG,readSVG,readPDF,download,loadDefaultFont,registerFont,fonts,restoreFonts,getFontsForProject,addFontStyles,textToOutlines,exportPDF,qrSVG} from './io.js?v=0.2.1';
 const $=id=>document.getElementById(id),paper=$('paper'),art=$('artwork'),overlay=$('overlay'),workspace=$('workspace'),stage=$('stage');
 let pages=[{name:'Страница 1',w:210,h:297,markup:'',guides:[],source:''}],pageIndex=0,selection=[],tool='select',zoom=2,pan={x:80,y:50},history=[],future=[],drag=null,serial=0,pen=null,nodeIndex=1,clipboard=null,space=false,defaultFill='#264b42',dirty=false;
 const objectTags='path,rect,ellipse,circle,line,polyline,polygon,text,image,use';

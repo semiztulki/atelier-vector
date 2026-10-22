@@ -1,5 +1,5 @@
-import {unzipSync,opentype} from './vendor/tools.js';
-import {registerFont,fonts} from './io.js';
+import {unzipSync,opentype} from './vendor/tools.js?v=0.2.1';
+import {registerFont,fonts} from './io.js?v=0.2.1';
 
 export function fontFilesFromZip(bytes) {
   if (bytes.byteLength > 64 * 1024 * 1024) throw Error('Архив шрифтов больше 64 МБ');

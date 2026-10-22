@@ -1,5 +1,5 @@
-import {DOMPurify,jsPDF,QRCode,opentype,PDFDocument} from './vendor/tools.js';
-import {PT_MM} from './geometry.js';
+import {DOMPurify,jsPDF,QRCode,opentype,PDFDocument} from './vendor/tools.js?v=0.2.1';
+import {PT_MM} from './geometry.js?v=0.2.1';
 export const NS='http://www.w3.org/2000/svg';
 export const fonts=new Map();
 function normalizeNamespace(el){const c=document.createElementNS(NS,el.localName);for(const a of el.attributes)c.setAttribute(a.name,a.value);for(const child of el.childNodes)c.append(child.nodeType===1?normalizeNamespace(child):child.cloneNode(true));return c;}
