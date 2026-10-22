@@ -1,1 +1,1 @@
-export {default as DOMPurify} from 'dompurify'; export {jsPDF} from 'jspdf'; import 'svg2pdf.js'; export {default as QRCode} from 'qrcode'; export * as opentype from 'opentype.js'; export {PDFDocument} from 'pdf-lib';
+export {default as DOMPurify} from 'dompurify'; export {jsPDF} from 'jspdf'; import 'svg2pdf.js'; export {default as QRCode} from 'qrcode'; export * as opentype from 'opentype.js'; export {PDFDocument} from 'pdf-lib'; export {unzipSync} from 'fflate';

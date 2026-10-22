@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Manrope-ExtraLight.ttf",
+    "family": "Manrope ExtraLight"
+  },
+  {
+    "file": "Manrope-Light.ttf",
+    "family": "Manrope Light"
+  },
+  {
+    "file": "Manrope-Regular.ttf",
+    "family": "Manrope"
+  },
+  {
+    "file": "Manrope-Medium.ttf",
+    "family": "Manrope Medium"
+  },
+  {
+    "file": "Manrope-SemiBold.ttf",
+    "family": "Manrope SemiBold"
+  },
+  {
+    "file": "Manrope-Bold.ttf",
+    "family": "Manrope Bold"
+  },
+  {
+    "file": "Manrope-ExtraBold.ttf",
+    "family": "Manrope ExtraBold"
+  }
+]
